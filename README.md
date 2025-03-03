@@ -21,12 +21,3 @@ Data Model Visualization: An Entity Relationship Diagram (ERD) has been created 
 
 <img width="500" alt="data_model" src="https://github.com/user-attachments/assets/c6194384-0c3c-4fae-bc48-dc87c6793764"/>
 
-
-## Technology Stack:
-
-Google Cloud Platform: Provides the cloud infrastructure for data storage and processing
-
-Mage AI: Used for data pipeline orchestration and transformation
-
-Google Looker: Employed for data visualization.
-
