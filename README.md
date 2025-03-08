@@ -17,7 +17,7 @@ Data Modeling: The raw data has been transformed into a structured format, creat
 
 
 ## Current Progress
-Data Processing: The initial data processing, including the creation of fact and dimension tables, has been completed using [Jupyter Notebook (.ipynb file)](https://github.com/1adityakadam/uber_data_analytics/blob/a03044ba5f8f059354cf83075d024a32e12409b3/uber_data_analytics.ipynb). This approach allows for interactive development and testing of the data transformation logic.
+Data Processing: The initial data processing, including the creation of fact and dimension tables, has been completed using [Jupyter Notebook (.ipynb file)](https://github.com/1adityakadam/Uber_data_analytics/blob/main/uber_data_analytics.ipynb). This approach allows for interactive development and testing of the data transformation logic.
 Data Model Visualization: An Entity Relationship Diagram (ERD) has been created using [Lucid](https://lucid.app/lucidchart/4e1d0ad4-c876-43cc-8d45-90fcbffc2c55/edit?viewport_loc=-865%2C-466%2C3199%2C1828%2C0_0&invitationId=inv_9301afe3-e69f-4b1f-9c47-da0d6d6063d3), utilizing the Entity Relationship table option from the shapes menu. This diagram visually represents the structure of the fact and dimension tables, illustrating the relationships between different data entities in the project.
 
 <a href='https://github.com/1adityakadam/uber_data_analytics/blob/main/uber_data_analytics_data_model.png'>
