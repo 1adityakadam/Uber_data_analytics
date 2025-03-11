@@ -1,6 +1,13 @@
-# Uber Data Analytics 🚗
+# Uber Data Analytics 🚗 with Google BigQuery and Google Looker Studio
 
-This Uber data analytics project utilizes the [TLC Trip Record Data from November 2024, 
+<a href="https://lookerstudio.google.com/reporting/432a79b8-781d-4081-94b3-33cfdb9444cb">
+  
+  ![image](https://github.com/user-attachments/assets/03cdcf32-57d2-49b8-b67b-f81bff0fdea2)
+
+</a>
+
+
+This <a href="https://lookerstudio.google.com/reporting/432a79b8-781d-4081-94b3-33cfdb9444cb">Uber data analytics project</a> utilizes the [TLC Trip Record Data from November 2024, 
 sourced from the NYC Taxi and Limousine Commission (TLC).](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 
@@ -42,4 +49,9 @@ Used mage-ai to extract and transform data and for load I have exported them loc
 Query in Google BigQuery:
 
 <img width="600" src="https://github.com/user-attachments/assets/f7464b66-987e-41f7-ae1b-54c737913407" />
+
+Dashboard in Google Looker Studio:
+
+<img width="600" src="https://github.com/user-attachments/assets/5edc0c82-577f-4626-9456-43232bfcbd79" />
+
 
