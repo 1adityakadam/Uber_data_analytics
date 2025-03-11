@@ -1,4 +1,4 @@
-# Uber Data Analytics 🚗 with Google BigQuery and Google Looker Studio
+# Uber Data Analytics End-to-End Project with Google BigQuery and Google Looker Studio
 
 <a href="https://lookerstudio.google.com/reporting/432a79b8-781d-4081-94b3-33cfdb9444cb">
   
