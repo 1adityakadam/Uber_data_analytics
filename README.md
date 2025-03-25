@@ -2,7 +2,7 @@
 
 <a href="https://lookerstudio.google.com/reporting/432a79b8-781d-4081-94b3-33cfdb9444cb">
   
-  ![image](https://github.com/user-attachments/assets/03cdcf32-57d2-49b8-b67b-f81bff0fdea2)
+  ![image](https://github.com/user-attachments/assets/7a770ae9-5baa-46b5-99ec-8502d89e8588)
 
 </a>
 
