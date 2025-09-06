@@ -6,53 +6,92 @@
 
 
 </a>
+<br>
 
+## 📌 Business Objective  
 
-This <a href="https://lookerstudio.google.com/reporting/432a79b8-781d-4081-94b3-33cfdb9444cb">Uber data analytics project</a> utilizes the [TLC Trip Record Data from November 2024, 
-sourced from the NYC Taxi and Limousine Commission (TLC).](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+The objective of this project was to design an end-to-end data analytics pipeline for Uber’s Yellow Taxi trip data using **Google Cloud Platform (GCP)**.  
+The pipeline leverages **BigQuery** for scalable querying and **Looker Studio** for interactive dashboards, enabling insights into ridership patterns, revenue distribution, vendor performance, and congestion charges.  
 
+This initiative demonstrates how raw trip data can be transformed into a structured, query-optimized data model and then visualized for **business intelligence and decision-making**.  
 
-The data, collected by technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP), 
-specifically focuses on Yellow Taxi Trip Records.
-
-
-## Project Overview
-Data Source: The project uses a parquet file named "yellow_tripdata_2024-11.parquet" extracted from the TLC website, representing data from November 2024.
-Data Modeling: The raw data has been transformed into a structured format, creating fact and dimension tables to facilitate efficient analysis and querying.
-
-<a href='https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page'>
-<img width="300" alt="nyc_gov_site" src="https://github.com/user-attachments/assets/0e41f500-4f93-481e-b733-47fa6c4f9f33" /> <img width="300" alt="nov_2024_data" src="https://github.com/user-attachments/assets/20fa737b-3736-4ddb-b11d-2908bbc76e11" /> <img width="300" alt="data_dict" src="https://github.com/user-attachments/assets/f4cf3924-ec11-49e7-9f8e-6ca0f7c9126e" /></a>
-
----
-
-Data Processing: The initial data processing, including the creation of fact and dimension tables, has been completed using [Jupyter Notebook (.ipynb file)](https://github.com/1adityakadam/Uber_data_analytics/blob/main/uber_data_analytics.ipynb). This approach allows for interactive development and testing of the data transformation logic.
-Data Model Visualization: An Entity Relationship Diagram (ERD) has been created using [Lucid](https://lucid.app/lucidchart/4e1d0ad4-c876-43cc-8d45-90fcbffc2c55/edit?viewport_loc=-865%2C-466%2C3199%2C1828%2C0_0&invitationId=inv_9301afe3-e69f-4b1f-9c47-da0d6d6063d3), utilizing the Entity Relationship table option from the shapes menu. This diagram visually represents the structure of the fact and dimension tables, illustrating the relationships between different data entities in the project.
-
-<a href='https://github.com/1adityakadam/uber_data_analytics/blob/main/uber_data_analytics_data_model.png'>
-<img width="500" alt="data_model" src="https://github.com/user-attachments/assets/c6194384-0c3c-4fae-bc48-dc87c6793764"/></a>
-
-
+### Key Business Questions  
+- What is the total ridership, revenue, and average trip distance for November 2024?  
+- How do fares and trip patterns vary by day of the week?  
+- Who are the top taxi vendors and what share do they hold?  
+- What are the top pickup and drop-off zones across NYC?  
+- How much do congestion charges contribute to overall costs?  
 
 ---
 
-Upoaded files on google cloud storage bucket and gave public access:
+## ✅ Results and Insights  
 
-<img width="600" src="https://github.com/user-attachments/assets/1a3ea56f-49db-4299-8db1-6dffa7610f36" />
+### High-Level Metrics  
+- **5.5M** total travellers in November 2024  
+- **$203.15M** in total revenue with an average fare of **$61.76**  
+- Average trip distance: **14.1 miles**  
+- Mean congestion charge: **$1.43**  
 
-Created a VM instance and then access mage-ai:
+### Temporal Trends  
+- Weekday demand strongest on **Thursdays & Fridays**  
+- Weekend trips skewed toward **negotiated and group fares**  
 
-<img width="600" src="https://github.com/user-attachments/assets/d0145378-f1c6-47a4-b6ad-7b38add9bec4" />
+### Vendor Performance  
+- **Creative Mobile Technologies** – 84.8% share  
+- **VeriFone Inc.** – 15.2% share  
 
-Used mage-ai to extract and transform data and for load I have exported them locally and uploaded them into BigQuery:
+### Spatial Analysis  
+- **Top pickups:** LaGuardia Airport, JFK Airport, Times Square/Theatre District  
+- **Top drop-offs:** Outside NYC, Midtown North, Tribeca/Civic Center  
+- Strong **airport-centric traffic patterns** observed  
 
-<img width="600" src="https://github.com/user-attachments/assets/3f8d195b-5ea0-43bf-a045-63eaf9db9521" />
+### Zone-Level Patterns  
+- **65.2%** of pickups occurred in the **Yellow Zone**  
+- Drop-offs more evenly distributed across boroughs and airports  
 
-Query in Google BigQuery:
+---
 
-<img width="600" src="https://github.com/user-attachments/assets/f7464b66-987e-41f7-ae1b-54c737913407" />
+## 🛠️ Tech Stack & Workflow  
 
-Dashboard in Google Looker Studio:
+- **Data Source:** TLC Yellow Taxi Trip Data (`yellow_tripdata_2024-11.parquet`)  
+- **Data Storage:** Google Cloud Storage (public bucket)  
+- **Data Processing:**  
+  - VM instance + **Mage AI** for ETL  
+  - Exported transformed tables into **BigQuery**  
+- **Data Modeling:**  
+  - Fact and dimension tables (trip fact, vendor dim, zone dim, date dim)  
+  - ERD created in **Lucidchart**  
+- **Analytics & Querying:** Google BigQuery SQL  
+- **Visualization:** Google Looker Studio (KPIs, trend charts, treemaps, pie charts)  
 
-<img width="600" src="https://github.com/user-attachments/assets/5edc0c82-577f-4626-9456-43232bfcbd79" />
+---
+
+## 🌐 Deliverables  
+
+- Interactive **Looker Studio Dashboard** (November 2024 trip analytics)  
+- **Data Model ERD** (fact & dimension relationships)  
+- **BigQuery SQL scripts** for transformations and aggregations  
+- End-to-End **GCP Pipeline Setup** (GCS → VM/Mage AI → BigQuery → Looker Studio)  
+
+---
+
+## 🔗 Suggested LinkedIn Post  
+
+🚖 Just completed an **end-to-end Uber Data Analytics Project** using **Google Cloud Platform**!  
+
+📊 Analyzed **5.5M+ trips** from November 2024, transforming raw TLC trip data into an **interactive Looker Studio dashboard** powered by **BigQuery**.  
+
+✅ **Key Outcomes:**  
+- $203M+ revenue with average fare of $61.76  
+- Vendor dominance: Creative Mobile Tech (85%) vs VeriFone (15%)  
+- Airport-heavy travel demand (LaGuardia & JFK lead pickups)  
+- Peak weekday demand vs weekend negotiated fares  
+
+🔧 **Stack:** GCP (BigQuery, GCS, VM), Mage AI for ETL, Looker Studio for BI  
+
+This project highlights how **open datasets + cloud analytics pipelines** can uncover real urban mobility insights at scale.  
+
+#BigQuery #LookerStudio #DataEngineering #DataAnalytics #Uber #PublicData  
+
 
 
