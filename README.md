@@ -75,20 +75,6 @@ This initiative demonstrates how raw trip data can be transformed into a structu
 
 ---
 
-## 🔗 Suggested LinkedIn Post  
-
-🚖 Just completed an **end-to-end Uber Data Analytics Project** using **Google Cloud Platform**!  
-
-📊 Analyzed **5.5M+ trips** from November 2024, transforming raw TLC trip data into an **interactive Looker Studio dashboard** powered by **BigQuery**.  
-
-✅ **Key Outcomes:**  
-- $203M+ revenue with average fare of $61.76  
-- Vendor dominance: Creative Mobile Tech (85%) vs VeriFone (15%)  
-- Airport-heavy travel demand (LaGuardia & JFK lead pickups)  
-- Peak weekday demand vs weekend negotiated fares  
-
-🔧 **Stack:** GCP (BigQuery, GCS, VM), Mage AI for ETL, Looker Studio for BI  
-
 This project highlights how **open datasets + cloud analytics pipelines** can uncover real urban mobility insights at scale.  
 
 #BigQuery #LookerStudio #DataEngineering #DataAnalytics #Uber #PublicData  
